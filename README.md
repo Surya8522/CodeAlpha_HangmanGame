@@ -2,16 +2,16 @@
 
 Overview
 
-Hangman Game is a Python-based console application developed to provide an interactive word-guessing experience. The player must guess a randomly selected word one letter at a time within a limited number of attempts.
+Hangman Game is a console-based Python application where players guess a randomly selected word one letter at a time. The game provides a limited number of incorrect attempts, encouraging logical thinking and vocabulary skills.
 
 Features
 
 - Random word selection
-- Interactive gameplay
+- Letter-by-letter guessing
+- Limited incorrect attempts
 - Input validation
-- Remaining attempts counter
 - Win and lose conditions
-- Console-based interface
+- Interactive console interface
 
 Technologies Used
 
@@ -20,21 +20,18 @@ Technologies Used
 
 Project Structure
 
-CodeAlpha_HangmanGame/
-│── hangman.py
-│── README.md
+- "hangman.py" – Main application
 
 How to Run
 
 1. Install Python 3.
-2. Download this repository.
-3. Run:
+2. Run:
 
 python hangman.py
 
 Learning Outcomes
 
-This project helped improve my understanding of loops, conditional statements, lists, strings, functions, and user input handling in Python.
+This project demonstrates the use of loops, conditional statements, lists, strings, sets, user input handling, and the random module in Python.
 
 Author
 
